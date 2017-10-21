@@ -1,0 +1,6 @@
+<p class="input-group">
+    <input id="pexpId"  class="form-control" type="text" datepicker-popup="{{format}}" ng-model="details.passportExpirationDate" is-open="opened2" min-date="{{currDate}}" max-date="'2030-06-22'" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" ng-change="isPPexpValid()" style="line-height : 15px; font-size : 12px; padding:0; text-align : center" ng-disabled="true"/>
+    <span class="input-group-btn">
+        <button type="button" class=" btn-default" style="height:36px;" ng-click="open($event,'opened2')"><i class="glyphicon glyphicon-calendar"></i></button>
+    </span>
+</p>

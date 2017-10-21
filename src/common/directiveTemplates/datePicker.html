@@ -1,0 +1,6 @@
+<p class="input-group">
+    <input id="dobId"  class="form-control" type="text" datepicker-popup="{{format}}" ng-model="details.DateOfBirth" is-open="opened1" min-date="minDate" max-date="{{currDate}}" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close"  ng-change="isDOBvalid()" style="line-height : 15px; font-size : 12px; padding:0; text-align : center" ng-disabled="true"/>
+    <span class="input-group-btn">
+        <button type="button" class=" btn-default" style="height:36px;" ng-click="open($event,'opened1')"><i class="glyphicon glyphicon-calendar"></i></button>
+    </span>
+</p>

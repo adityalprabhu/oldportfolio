@@ -1,0 +1,5 @@
+<form action="{{formData.redirectUrl}}" method="{{formData.redirectMethod}}">
+    <div ng-repeat="(key,val) in formData.redirectData">
+        <input type="hidden" name="{{key}}" value="{{val}}" />
+        </div>
+    </form>

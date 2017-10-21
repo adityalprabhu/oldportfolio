@@ -1,0 +1,116 @@
+<div class="heading">
+    <h3>What I've been up to.</h3>
+
+
+    <h2>I can not put all of my work online. Please contact me to know more about my other projects.</h2>
+
+</div>
+<div class="projectContainer" ng-cloak>
+    <span><ul class="col-md-12"><li class="col-md-2" ng-click="goToProject(1)">Project 1</li><li class="col-md-2" ng-click="goToProject(2)">Project 2</li><li ng-click="goToProject(3)" class="col-md-2">Project 3</li><li class="col-md-2" ng-click="goToProject(4)">Project 4</li><li class="col-md-2" ng-click="goToProject(5)">Project 5</li><li class="col-md-2" ng-click="goToProject(6)">Project 6</li></ul></span>
+    <div class="pContainer1" id="pContainer1">
+        <h2>SMARKET Android Application</h2>
+        <article>
+            <!--<img src="assets/images/projects/project1/img1.png" >-->
+            <div class="carousel">
+                    <div class="slides_control">
+                            <carousel >
+                                <slide ng-repeat="slide in slides1" active="slide.active">
+                                    <img src="{{slide.image}}" alt>
+                                </slide>
+                            </carousel>
+                    </div>
+                </div>
+
+            <h4>UI/UX design, Development</h4>
+            <p><strong><em>Smart Shopping Automation for Remote and Onsite Customers</em></strong> : (Prof Dr. Bhaktavatsalam and Prof Gowranga - Indian Institue of Science, Bangalore, India  and Prof Suresh P)                 Jan 2014- May 2014
+                This is  an android application that uses a smartphone’s camera for barcode scanner and the whole application is built to automate the shopping process. The use of beacons help in navigation to chosen departments. Application also provides the customer the option to order items and opt for home delivery.
+            </p>
+        </article>
+    </div>
+    <div class="pContainer2" id="pContainer2">
+        <h2>AFARS Mobile Application</h2><button ng-click="goToTop();">^Top</button>
+        <article>
+            <!--<img src="assets/images/icon/pdfIcon.png" >-->
+            <div class="carousel">
+                <div class="slides_control">
+                    <carousel >
+                        <slide ng-repeat="slide in slides2" active="slide.active">
+                            <img src="{{slide.image}}">
+                        </slide>
+                    </carousel>
+                </div>
+            </div>
+            <h4>UI/UX design</h4>
+            <p>Flight Attendants use this app to create report/issue while checking the flight. FA checks the flight details in sequence tab and creates report. AFARS App consumes Flight Hub Web Services to retrieve sequences. It uses SQLite local Database to store sequences. Report/issues and store it on the local DB. On getting internet connection Flight attendant uses this app to transmit the reports to the server. This app is developed using HTML5 + Angular JS + bootstrap + Cordova (+ Grunt + Bower) for Android and iOS platform. -Developed while working at Hewlett Packard Enterprise</p>
+        </article>
+    </div>
+    <div class="pContainer3" id="pContainer3">
+        <h2>Self Service KIOSK web application</h2><button ng-click="goToTop();">^Top</button>
+        <article>
+            <!--<img src="assets/images/icon/pdfIcon.png" >-->
+            <div class="carousel">
+                <div class="slides_control">
+                    <carousel >
+                        <slide ng-repeat="slide in slides3" active="slide.active">
+                            <img src="{{slide.image}}">
+                        </slide>
+                    </carousel>
+                </div>
+            </div>
+            <h4>UI/UX design, Development</h4>
+            <p>This app is used at Visa Application Centers to fill Visa applications and submit their information as well as biometric data like photo, fingerprints, signature and scan of the applican't passport. This application also has an integrated payment gateway, so that the applicant can pay online and collect his/her printed receipt. This consumes REST web services to get details and also submit the application at the end. This app is developed using HTML5 + Angular JS + bootstrap + ActiveX plugins for Biometric Devices. -Developed while working at Hewlett Packard Enterprise</p>
+        </article>
+    </div>
+    <div class="pContainer4" id="pContainer4">
+        <h2>Open GL graphics project</h2><button ng-click="goToTop();">^Top</button>
+        <article>
+            <!--<img src="assets/images/icon/pdfIcon.png" >-->
+            <div class="carousel">
+                <div class="slides_control">
+                    <carousel >
+                        <slide ng-repeat="slide in slides4" active="slide.active">
+                            <img src="{{slide.image}}">
+                        </slide>
+                    </carousel>
+                </div>
+            </div>
+            <h4>UI/UX design, Development</h4>
+            <p><strong><em>Animated representation of a traffic signal</em></strong> - February 2013 – May 2013, This project demonstrates the scene consisting of a traffic signal that was created using GLUT toolkit and VC++. The program uses automation for the creation of different vehicles and employs corresponding loops and algorithms for their apperances and movements.</p>
+        </article>
+    </div>
+    <div class="pContainer5" id="pContainer5">
+    <h2>C++ Social Networking Application </h2><button ng-click="goToTop();">^Top</button>
+    <article>
+        <!--<img src="assets/images/icon/pdfIcon.png" >-->
+        <div class="carousel">
+            <div class="slides_control">
+                <carousel >
+                    <slide ng-repeat="slide in slides5" active="slide.active">
+                        <img src="{{slide.image}}">
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+        <h4>UI/UX design, Development</h4>
+        <p><strong><em>A Social Networking app for school</em></strong> - Feb 2008, This is a social networking application for school using C++ and Data File Handling. It has a wide range of features like updating a status, adding friends, sending messages to friends, changing the theme of the application, create groups, etc.</p>
+    </article>
+</div>
+    <div class="pContainer6" id="pContainer6">
+        <h2>Appointment Scheduling Application</h2><button ng-click="goToTop();">^Top</button>
+        <article>
+            <!--<img src="assets/images/icon/pdfIcon.png" >-->
+            <div class="carousel">
+                <div class="slides_control">
+                    <carousel >
+                        <slide ng-repeat="slide in slides6" active="slide.active">
+                            <img src="{{slide.image}}">
+                        </slide>
+                    </carousel>
+                </div>
+            </div>
+            <h4>UI/UX design, Development</h4>
+            <p>Visa Applicants use this app to book appointments for their Visa Applications. This allows a user to log in with their credentials, enter their details and schedule the appointment at the required date. This consumes REST web services to get details and also submit the application at the end. This app is developed using HTML5 + Angular JS + bootstrap + cordova (+ Grunt + Bower) for Android platform. -Developed while working at Hewlett Packard Enterprise</p>
+        </article>
+    </div>
+</div>
+</div>
